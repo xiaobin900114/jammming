@@ -1,5 +1,5 @@
 {
-  "homepage": "https://xiaobin900114.github.io/jammming/build",
+  "homepage": "https://xiaobin900114.github.io/jammming/",
   "name": "jammming",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +17,7 @@
     "eject": "react-scripts eject",
     "generate": "rc-autocomplete",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
